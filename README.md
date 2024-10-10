@@ -11,6 +11,7 @@ Insira aqui um resumo do projeto que será construído. Tente apresentar uma jus
 
 ---
 
+!--
 > **Nota**: todo o texto abaixo é somente para entendimento do usuário do template. Por favor remova-o quando for atualizar este `README.md`.
 
 ## Funcionalidades
