@@ -64,6 +64,7 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 **Interpretação dos resultados:** Interpretar os resultados dos modelos para identificar os fatores mais importantes que influenciam o valor da gorjeta.
 **Validação dos resultados:** Validar os resultados do modelo com um conjunto de dados de teste.
+
 **Apresentação dos resultados:** Apresentar os resultados de forma clara e concisa para os stakeholders, utilizando visualizações e relatórios.
 
 Divisão do Projeto em Entregas:
