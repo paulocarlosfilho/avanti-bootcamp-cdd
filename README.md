@@ -35,7 +35,7 @@ Em resumo, este estudo visa oferecer insights valiosos para a indústria de rest
 
 Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining), um processo padrão amplamente utilizado na indústria para projetos de mineração de dados. As etapas serão adaptadas ao contexto específico da análise de gorjetas em restaurantes.
 
-1. Entendimento do Negócio:
+### 1. Entendimento do Negócio:
 
 **Definição do problema:** Identificar os principais desafios enfrentados pelos restaurantes em relação às gorjetas e como a análise de dados pode auxiliar na solução desses problemas.
 
@@ -43,7 +43,7 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 **Métricas de sucesso:** Estabelecer métricas para avaliar o sucesso do projeto, como a precisão dos modelos preditivos e a relevância dos insights gerados.
 
-2. Entendimento dos Dados:
+### 2. Entendimento dos Dados:
 
 **Coleta de dados:** Coletar dados de diversas fontes, como sistemas de ponto de venda (PDV), aplicativos de delivery e pesquisas com clientes.
 
@@ -51,7 +51,7 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 **Exploração inicial:** Realizar uma análise exploratória dos dados para entender a distribuição das variáveis, identificar relações entre as variáveis e visualizar os dados de forma gráfica.
 
-3. Preparação dos Dados:
+### 3. Preparação dos Dados:
 
 **Limpeza:** Limpar os dados, corrigindo erros, removendo duplicatas e tratando valores ausentes.
 
@@ -59,7 +59,7 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 **Seleção de features:** Selecionar as variáveis mais relevantes para a construção dos modelos preditivos.
 
-4. Modelagem:
+### 4. Modelagem:
 
 **Construção de modelos:** Construir diferentes modelos de aprendizado de máquina, como regressão linear, árvores de decisão, random forest e redes neurais artificiais, para prever o valor da gorjeta.
 
@@ -67,7 +67,7 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 **Seleção do melhor modelo:** Selecionar o modelo que apresentar o melhor desempenho de acordo com as métricas definidas.
 
-5. Avaliação:
+### 5. Avaliação:
 
 **Interpretação dos resultados:** Interpretar os resultados dos modelos para identificar os fatores mais importantes que influenciam o valor da gorjeta.
 
