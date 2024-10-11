@@ -12,7 +12,7 @@
 
 Este estudo tem como objetivo principal identificar os fatores que influenciam o valor das gorjetas em restaurantes e, com base nessa compreensão, desenvolver modelos preditivos capazes de estimar o valor da gorjeta em novas situações.
 
-##Justificativa:
+## Justificativa:
 
 O setor de restaurantes busca constantemente maneiras de melhorar a experiência do cliente e aumentar a receita. As gorjetas representam uma parte significativa da renda dos garçons e podem ser influenciadas por diversos fatores. Compreender os elementos que levam a um valor de gorjeta maior permite que os estabelecimentos otimizem suas operações, melhorem o atendimento e, consequentemente, aumentem a satisfação dos clientes e a receita.
 
