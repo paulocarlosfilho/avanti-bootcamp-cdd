@@ -51,6 +51,7 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 **Limpeza:** Limpar os dados, corrigindo erros, removendo duplicatas e tratando valores ausentes.
 **Transformação:** Transformar os dados para torná-los adequados para a modelagem, como normalização, padronização e criação de novas variáveis.
+
 **Seleção de features:** Selecionar as variáveis mais relevantes para a construção dos modelos preditivos.
 
 4. Modelagem:
