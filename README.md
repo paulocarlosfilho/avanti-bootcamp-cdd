@@ -1,12 +1,36 @@
-# <Título do projeto>
+#Análise de Dados de Gorjetas: Identificando Fatores e Construindo Modelos Preditivos
 
-Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
+<p align="center">
+  <img src="https://www12.senado.leg.br/radio/1/conexao-senado/2024/02/08/tribuna-do-consumidor-gorjetas/@@images/41e8f83f-99b2-43eb-a840-065299318f1b.jpeg" />
+</p>
 
 ## Desenvolvedor
 
  - Paulo Carlos Filho (https://github.com/paulocarlosfilho/)
    
 ---
+
+Este estudo tem como objetivo principal identificar os fatores que influenciam o valor das gorjetas em restaurantes e, com base nessa compreensão, desenvolver modelos preditivos capazes de estimar o valor da gorjeta em novas situações.
+
+##Justificativa:
+
+O setor de restaurantes busca constantemente maneiras de melhorar a experiência do cliente e aumentar a receita. As gorjetas representam uma parte significativa da renda dos garçons e podem ser influenciadas por diversos fatores. Compreender os elementos que levam a um valor de gorjeta maior permite que os estabelecimentos otimizem suas operações, melhorem o atendimento e, consequentemente, aumentem a satisfação dos clientes e a receita.
+
+Nesse projeto abordaremos questões como:
+
+1. Quais características de uma transação (valor da conta, tamanho do grupo, dia da semana, etc.) têm maior impacto no valor da gorjeta?
+2. É possível construir um modelo preciso para prever o valor da gorjeta em novas situações?
+3. Existem tendências ao longo do tempo no valor das gorjetas, como variações sazonais ou relacionadas a eventos específicos?
+
+Ao responder a essas perguntas, este estudo contribui para o setor de restaurantes ao:
+
+1. **Otimizar o atendimento:** Permitir que os restaurantes adaptem o atendimento de acordo com o perfil do cliente para incentivar maiores gorjetas.
+2. **Desenvolvendo programas de fidelidade:** Criar programas que recompensem clientes que deixam gorjetas maiores.
+3. **Analisando o impacto de promoções:** Avaliar como diferentes promoções influenciam o valor da gorjeta.
+4. **Tomando decisões estratégicas:** Utilizar os insights obtidos para tomar decisões mais estratégicas sobre preços, menu e atendimento.
+
+Em resumo, este estudo visa oferecer insights valiosos para a indústria de restaurantes, permitindo que os estabelecimentos otimizem suas operações, melhorem a satisfação dos clientes e aumentem a receita.
+
 
 <!-- T
 > **Nota**: todo o texto abaixo é somente para entendimento do usuário do template. Por favor remova-o quando for atualizar este `README.md`.

@@ -1,5 +1,7 @@
-import streamlit as st
+#%%
+import pandas as pd
 
-st.title("Olá")
-if st.button("mundo!"):
-    st.balloons()
+#%%
+df = pd.read_csv("data/raw/tips.csv")
+
+df
