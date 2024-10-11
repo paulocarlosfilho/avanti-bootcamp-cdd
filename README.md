@@ -37,42 +37,42 @@ Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standar
 
 1. Entendimento do Negócio:
 
-** Definição do problema:** Identificar os principais desafios enfrentados pelos restaurantes em relação às gorjetas e como a análise de dados pode auxiliar na solução desses problemas.
-** Requisitos:** Definir os requisitos de dados, incluindo as variáveis a serem coletadas e a granularidade dos dados (por exemplo, nível de detalhe das transações).
-** Métricas de sucesso:** Estabelecer métricas para avaliar o sucesso do projeto, como a precisão dos modelos preditivos e a relevância dos insights gerados.
+**Definição do problema:** Identificar os principais desafios enfrentados pelos restaurantes em relação às gorjetas e como a análise de dados pode auxiliar na solução desses problemas.
+**Requisitos:** Definir os requisitos de dados, incluindo as variáveis a serem coletadas e a granularidade dos dados (por exemplo, nível de detalhe das transações).
+**Métricas de sucesso:** Estabelecer métricas para avaliar o sucesso do projeto, como a precisão dos modelos preditivos e a relevância dos insights gerados.
 
 2. Entendimento dos Dados:
 
-** Coleta de dados:** Coletar dados de diversas fontes, como sistemas de ponto de venda (PDV), aplicativos de delivery e pesquisas com clientes.
-** Descrição dos dados:** Analisar a qualidade dos dados, identificando valores ausentes, inconsistências e outliers.
-** Exploração inicial:** Realizar uma análise exploratória dos dados para entender a distribuição das variáveis, identificar relações entre as variáveis e visualizar os dados de forma gráfica.
+**Coleta de dados:** Coletar dados de diversas fontes, como sistemas de ponto de venda (PDV), aplicativos de delivery e pesquisas com clientes.
+**Descrição dos dados:** Analisar a qualidade dos dados, identificando valores ausentes, inconsistências e outliers.
+**Exploração inicial:** Realizar uma análise exploratória dos dados para entender a distribuição das variáveis, identificar relações entre as variáveis e visualizar os dados de forma gráfica.
 
 3. Preparação dos Dados:
 
 **Limpeza:** Limpar os dados, corrigindo erros, removendo duplicatas e tratando valores ausentes.
-** Transformação:** Transformar os dados para torná-los adequados para a modelagem, como normalização, padronização e criação de novas variáveis.
+**Transformação:** Transformar os dados para torná-los adequados para a modelagem, como normalização, padronização e criação de novas variáveis.
 **Seleção de features:** Selecionar as variáveis mais relevantes para a construção dos modelos preditivos.
 
 4. Modelagem:
 
-** Construção de modelos:** Construir diferentes modelos de aprendizado de máquina, como regressão linear, árvores de decisão, random forest e redes neurais artificiais, para prever o valor da gorjeta.
-** Avaliação de modelos:** Avaliar a performance dos modelos utilizando métricas como RMSE (Root Mean Squared Error), MAE (Mean Absolute Error) e R².
-** Seleção do melhor modelo:** Selecionar o modelo que apresentar o melhor desempenho de acordo com as métricas definidas.
+**Construção de modelos:** Construir diferentes modelos de aprendizado de máquina, como regressão linear, árvores de decisão, random forest e redes neurais artificiais, para prever o valor da gorjeta.
+**Avaliação de modelos:** Avaliar a performance dos modelos utilizando métricas como RMSE (Root Mean Squared Error), MAE (Mean Absolute Error) e R².
+**Seleção do melhor modelo:** Selecionar o modelo que apresentar o melhor desempenho de acordo com as métricas definidas.
 
 5. Avaliação:
 
-** Interpretação dos resultados:** Interpretar os resultados dos modelos para identificar os fatores mais importantes que influenciam o valor da gorjeta.
-** Validação dos resultados:** Validar os resultados do modelo com um conjunto de dados de teste.
-** Apresentação dos resultados:** Apresentar os resultados de forma clara e concisa para os stakeholders, utilizando visualizações e relatórios.
+**Interpretação dos resultados:** Interpretar os resultados dos modelos para identificar os fatores mais importantes que influenciam o valor da gorjeta.
+**Validação dos resultados:** Validar os resultados do modelo com um conjunto de dados de teste.
+**Apresentação dos resultados:** Apresentar os resultados de forma clara e concisa para os stakeholders, utilizando visualizações e relatórios.
 
 Divisão do Projeto em Entregas:
 
-** Análise Exploratória de Dados (EDA):**
+**Análise Exploratória de Dados (EDA):**
 Realizar uma análise aprofundada dos dados para entender as relações entre as variáveis e identificar padrões.
 Visualizar os dados utilizando gráficos e tabelas para facilitar a interpretação.
 Gerar hipóteses sobre os fatores que podem influenciar o valor da gorjeta.
 
-** Análise Comparativa de Modelos:**
+**Análise Comparativa de Modelos:**
 Construir e avaliar diferentes modelos de aprendizado de máquina.
 Selecionar o modelo com melhor desempenho.
 Interpretar os resultados dos modelos e gerar insights para a tomada de decisão.
