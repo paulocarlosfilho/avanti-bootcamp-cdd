@@ -99,7 +99,7 @@ O projeto de análise de dados de gorjetas visa identificar os principais fatore
 
 **Tomada de decisões estratégicas:** Utilizando os insights para definir preços, menus e outras estratégias que maximizem a receita.
 
-** Melhoria da satisfação do cliente:** Identificando os fatores que levam a uma melhor experiência do cliente e, consequentemente, a maiores gorjetas.
+**Melhoria da satisfação do cliente:** Identificando os fatores que levam a uma melhor experiência do cliente e, consequentemente, a maiores gorjetas.
 
 **Aumento da receita:** Implementando estratégias baseadas nos resultados da análise para aumentar a receita dos restaurantes.
 
