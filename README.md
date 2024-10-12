@@ -87,7 +87,23 @@ Construir e avaliar diferentes modelos de aprendizado de máquina.
 Selecionar o modelo com melhor desempenho.
 Interpretar os resultados dos modelos e gerar insights para a tomada de decisão.
 
+## Resultados Esperados:
 
+O projeto de análise de dados de gorjetas visa identificar os principais fatores que influenciam o valor das gorjetas em restaurantes e construir modelos precisos para prever esse valor em novas situações. Com base nesses resultados, espera-se:
+
+**Otimizar o atendimento:** Adaptando o atendimento às características dos clientes que mais deixam gorjeta.
+
+**Desenvolvimento de programas de fidelidade:** Criando programas personalizados para recompensar clientes generosos.
+
+**Análise de promoções:** Avaliando o impacto de diferentes promoções no valor das gorjetas.
+
+**Tomada de decisões estratégicas:** Utilizando os insights para definir preços, menus e outras estratégias que maximizem a receita.
+
+** Melhoria da satisfação do cliente:** Identificando os fatores que levam a uma melhor experiência do cliente e, consequentemente, a maiores gorjetas.
+
+**Aumento da receita:** Implementando estratégias baseadas nos resultados da análise para aumentar a receita dos restaurantes.
+
+Em resumo, o objetivo final é fornecer insights valiosos para que os restaurantes possam otimizar suas operações, melhorar a experiência do cliente e aumentar a receita.
 <!-- T
 > **Nota**: todo o texto abaixo é somente para entendimento do usuário do template. Por favor remova-o quando for atualizar este `README.md`.
 
