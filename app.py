@@ -1,7 +1,9 @@
 #%%
 import pandas as pd
+import os
 
 #%%
+#Gerando o Dicionário de Dados
 dicionario_dados = {
     "total_bill": {"descricao": "Valor total da conta antes das gorjetas", "tipo": "quantitativa", "subtipo": "contínua"},
     "tip": {"descricao": "Valor da gorjeta", "tipo": "quantitativa", "subtipo": "contínua"},
@@ -16,4 +18,12 @@ dicionario_dados
 #%%
 df = pd.read_csv("data/raw/tips.csv")
 
+
+#Vizualizando informações do dataset
+df.info()
+
+#Removendo valores nulos
+df.dropna(inplace=True)
+
+#%%
 df
