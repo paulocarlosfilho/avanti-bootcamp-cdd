@@ -1,6 +1,19 @@
 #%%
 import pandas as pd
+import numpy as np
+import pickle
+
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+from matplotlib import pyplot as plt
+
 import os
+
+#%%
+def  separador():
+    print("=" * 50 + " Separador " + "=" * 50)
+
 
 #%%
 #Gerando o Dicionário de Dados
@@ -14,16 +27,24 @@ dicionario_dados = {
     "size": {"descricao": "Tamanho do grupo", "tipo": "quantitativa", "subtipo" : "discreta"}
 }
 
-dicionario_dados
+print(dicionario_dados)
+separador()
+
+
 #%%
 df = pd.read_csv("data/raw/tips.csv")
 
 
 #Vizualizando informações do dataset
 df.info()
+separador()
 
 #Removendo valores nulos
 df.dropna(inplace=True)
 
 #%%
-df
+print(df)
+separador()
+
+# %%
+
