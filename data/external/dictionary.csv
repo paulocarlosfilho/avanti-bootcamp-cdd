@@ -1,0 +1,8 @@
+variavel,descricao,tipo,subtipo
+total_bill,Valor total da conta ou transação,quantitativa,contínua
+tip,Valor da Gorjeta,quantitativa,contínua
+sex,Sexo do Cliente,qualitativa,nominal
+smoker,Se o cliente fuma,qualitativa,nominal
+day,Dia da Semana,qualitativa,nominal
+time,Periodo do dia (Almoço ou Jantar),qualitativa,nominal
+size,Tamanho do grupo,quantitativa,discreta
