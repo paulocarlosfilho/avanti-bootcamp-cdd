@@ -1,16 +1,110 @@
-# <Título do projeto>
+# Análise de Dados de Gorjetas: Identificando Fatores e Construindo Modelos Preditivos
 
-Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzcxdHVndmZkdm45Z2hvbnViNXVkazEwZnZzdnFpNzd3dzduNWczeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wz5ZpvQqjzJEb8uaEz/giphy.gif"/>
+</p>
 
-## Desenvolvedores
- - [Nome do desenvolvedor #1](url-do-github-do-desenvolvedor-#1)
- - [Nome do desenvolvedor #2](url-do-github-do-desenvolvedor-#2)
- - [Nome do desenvolvedor #3](url-do-github-do-desenvolvedor-#3)
- - [Nome do desenvolvedor #4](url-do-github-do-desenvolvedor-#4)
- - ...
+## Desenvolvedor
 
+ - Paulo Carlos Filho (https://github.com/paulocarlosfilho/)
+   
 ---
 
+Este estudo tem como objetivo principal identificar os fatores que influenciam o valor das gorjetas em restaurantes e, com base nessa compreensão, desenvolver modelos preditivos capazes de estimar o valor da gorjeta em novas situações.
+
+## Justificativa:
+
+O setor de restaurantes busca constantemente maneiras de melhorar a experiência do cliente e aumentar a receita. As gorjetas representam uma parte significativa da renda dos garçons e podem ser influenciadas por diversos fatores. Compreender os elementos que levam a um valor de gorjeta maior permite que os estabelecimentos otimizem suas operações, melhorem o atendimento e, consequentemente, aumentem a satisfação dos clientes e a receita.
+
+Nesse projeto abordaremos questões como:
+
+1. Quais características de uma transação (valor da conta, tamanho do grupo, dia da semana, etc.) têm maior impacto no valor da gorjeta?
+2. É possível construir um modelo preciso para prever o valor da gorjeta em novas situações?
+3. Existem tendências ao longo do tempo no valor das gorjetas, como variações sazonais ou relacionadas a eventos específicos?
+
+Ao responder a essas perguntas, este estudo contribui para o setor de restaurantes ao:
+
+1. **Otimizar o atendimento:** Permitir que os restaurantes adaptem o atendimento de acordo com o perfil do cliente para incentivar maiores gorjetas.
+2. **Desenvolvendo programas de fidelidade:** Criar programas que recompensem clientes que deixam gorjetas maiores.
+3. **Analisando o impacto de promoções:** Avaliar como diferentes promoções influenciam o valor da gorjeta.
+4. **Tomando decisões estratégicas:** Utilizar os insights obtidos para tomar decisões mais estratégicas sobre preços, menu e atendimento.
+
+Em resumo, este estudo visa oferecer insights valiosos para a indústria de restaurantes, permitindo que os estabelecimentos otimizem suas operações, melhorem a satisfação dos clientes e aumentem a receita.
+
+## Metodologia
+
+Para este estudo, será utilizada a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining), um processo padrão amplamente utilizado na indústria para projetos de mineração de dados. As etapas serão adaptadas ao contexto específico da análise de gorjetas em restaurantes.
+
+### 1. Entendimento do Negócio:
+
+**Definição do problema:** Identificar os principais desafios enfrentados pelos restaurantes em relação às gorjetas e como a análise de dados pode auxiliar na solução desses problemas.
+
+**Requisitos:** Definir os requisitos de dados, incluindo as variáveis a serem coletadas e a granularidade dos dados (por exemplo, nível de detalhe das transações).
+
+**Métricas de sucesso:** Estabelecer métricas para avaliar o sucesso do projeto, como a precisão dos modelos preditivos e a relevância dos insights gerados.
+
+### 2. Entendimento dos Dados:
+
+**Coleta de dados:** Coletar dados de diversas fontes, como sistemas de ponto de venda (PDV), aplicativos de delivery e pesquisas com clientes.
+
+**Descrição dos dados:** Analisar a qualidade dos dados, identificando valores ausentes, inconsistências e outliers.
+
+**Exploração inicial:** Realizar uma análise exploratória dos dados para entender a distribuição das variáveis, identificar relações entre as variáveis e visualizar os dados de forma gráfica.
+
+### 3. Preparação dos Dados:
+
+**Limpeza:** Limpar os dados, corrigindo erros, removendo duplicatas e tratando valores ausentes.
+
+**Transformação:** Transformar os dados para torná-los adequados para a modelagem, como normalização, padronização e criação de novas variáveis.
+
+**Seleção de features:** Selecionar as variáveis mais relevantes para a construção dos modelos preditivos.
+
+### 4. Modelagem:
+
+**Construção de modelos:** Construir diferentes modelos de aprendizado de máquina, como regressão linear, árvores de decisão, random forest e redes neurais artificiais, para prever o valor da gorjeta.
+
+**Avaliação de modelos:** Avaliar a performance dos modelos utilizando métricas como RMSE (Root Mean Squared Error), MAE (Mean Absolute Error) e R².
+
+**Seleção do melhor modelo:** Selecionar o modelo que apresentar o melhor desempenho de acordo com as métricas definidas.
+
+### 5. Avaliação:
+
+**Interpretação dos resultados:** Interpretar os resultados dos modelos para identificar os fatores mais importantes que influenciam o valor da gorjeta.
+
+**Validação dos resultados:** Validar os resultados do modelo com um conjunto de dados de teste.
+
+**Apresentação dos resultados:** Apresentar os resultados de forma clara e concisa para os stakeholders, utilizando visualizações e relatórios.
+
+Divisão do Projeto em Entregas:
+
+**Análise Exploratória de Dados (EDA):**
+Realizar uma análise aprofundada dos dados para entender as relações entre as variáveis e identificar padrões.
+Visualizar os dados utilizando gráficos e tabelas para facilitar a interpretação.
+Gerar hipóteses sobre os fatores que podem influenciar o valor da gorjeta.
+
+**Análise Comparativa de Modelos:**
+Construir e avaliar diferentes modelos de aprendizado de máquina.
+Selecionar o modelo com melhor desempenho.
+Interpretar os resultados dos modelos e gerar insights para a tomada de decisão.
+
+## Resultados Esperados:
+
+O projeto de análise de dados de gorjetas visa identificar os principais fatores que influenciam o valor das gorjetas em restaurantes e construir modelos precisos para prever esse valor em novas situações. Com base nesses resultados, espera-se:
+
+**Otimizar o atendimento:** Adaptando o atendimento às características dos clientes que mais deixam gorjeta.
+
+**Desenvolvimento de programas de fidelidade:** Criando programas personalizados para recompensar clientes generosos.
+
+**Análise de promoções:** Avaliando o impacto de diferentes promoções no valor das gorjetas.
+
+**Tomada de decisões estratégicas:** Utilizando os insights para definir preços, menus e outras estratégias que maximizem a receita.
+
+**Melhoria da satisfação do cliente:** Identificando os fatores que levam a uma melhor experiência do cliente e, consequentemente, a maiores gorjetas.
+
+**Aumento da receita:** Implementando estratégias baseadas nos resultados da análise para aumentar a receita dos restaurantes.
+
+Em resumo, o objetivo final é fornecer insights valiosos para que os restaurantes possam otimizar suas operações, melhorar a experiência do cliente e aumentar a receita.
+<!-- T
 > **Nota**: todo o texto abaixo é somente para entendimento do usuário do template. Por favor remova-o quando for atualizar este `README.md`.
 
 ## Funcionalidades
@@ -111,3 +205,4 @@ Para contribuir com um projeto, tente utilizar uma metodologia adequada. Utilize
 └── tasks.py           # Arquivo com funções para criação de tarefas utilizadas pelo invoke
 
 ```
+-->
